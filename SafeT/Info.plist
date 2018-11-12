@@ -4,6 +4,10 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>App accesses user location and then compares it to crime data from LAPD to tell them when they&apos;re in an area with high crime rate</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>When in use, location data is updated in real time to tell the user if they&apos;re in an unsafe area.</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
