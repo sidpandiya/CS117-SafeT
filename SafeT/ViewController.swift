@@ -24,10 +24,22 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         let locValue:CLLocationCoordinate2D = locationManager.location!.coordinate
         print("locations = \(locValue.latitude) \(locValue.longitude)")
         
-        let stream = InputStream(fileAtPath: "/path/to/file.csv")!
+        let stream = InputStream(fileAtPath: "/Users/siddharth/Google Drive/Sophomore Year/Fall Quarter/CS117/SafeT/Crime_Data_from_2010_to_Present.csv")!
         let csv = try! CSVReader(stream: stream)
+        var locationA:CLLocationCoordinate2D
         while let row = csv.next() {
-            print("\(row)")
+//            print(row[3])
+            var array = row[3].components(separatedBy: ", ")
+//            print(array)
+            var lat:Double
+            var long:Double
+            for element in array {
+                element.replacingOccurrences(of: "(", with: "")
+                element.replacingOccurrences(of: ")", with: "")
+//                lat = array[0] as! Double
+//                long = array[1] as! Double
+            }
+            print(array)
         }
     }
 
