@@ -22,7 +22,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
         locationManager.startUpdatingLocation()
         let locValue:CLLocationCoordinate2D = locationManager.location!.coordinate
         print("locations = \(locValue.latitude) \(locValue.longitude)")
-        
     }
 
     override func didReceiveMemoryWarning() {

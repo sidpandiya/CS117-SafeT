@@ -54,7 +54,7 @@
 		3568F3FA218FF691000C0C32 /* SafeTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3568F3FE218FF691000C0C32 /* SafeTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafeTUITests.swift; sourceTree = "<group>"; };
 		3568F400218FF691000C0C32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3583F2D4219A339E00E9B304 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		3583F2D4219A339E00E9B304 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3DC4E6924A2CBE4972DD28D8 /* Pods_SafeT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SafeT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		702DC309D9CA8670A61EA352 /* Pods-SafeT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeT.release.xcconfig"; path = "Pods/Target Support Files/Pods-SafeT/Pods-SafeT.release.xcconfig"; sourceTree = "<group>"; };
 		96EAF202BE715075FE7517DE /* Pods-SafeTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SafeTTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SafeTTests/Pods-SafeTTests.debug.xcconfig"; sourceTree = "<group>"; };
